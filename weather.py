@@ -17,7 +17,7 @@ def get_weather_data(w_api_key, city_id):
     return data
 
 
-w_api_key = "1ef1ead3c5a57b589e8bcb34d1c41588"
+w_api_key = "Your openweathermap api key here"
 city_id = "1270642"  # Gurgaon
 
 data = get_weather_data(w_api_key, city_id)
